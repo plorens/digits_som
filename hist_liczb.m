@@ -2,7 +2,7 @@ clear all
 x=0:16;
 
 M = csvread('train.csv');
-max=length(M);
+max=length(M); %Piotrek się skichał
 
 zero=[];
 one=[];
@@ -41,7 +41,7 @@ for i = 1:max
         case 9
             nine=[nine;M(i,:)];
         otherwise
-            disp('Nierozpoznane dzia�anie!')
+            disp('Nierozpoznane dzia³anie!')
             
     end
 end
